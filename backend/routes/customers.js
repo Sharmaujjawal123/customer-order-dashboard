@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// ✅ GET /customers/:id
+
 router.get('/:id', async (req, res) => {
   const customerId = parseInt(req.params.id);
 
